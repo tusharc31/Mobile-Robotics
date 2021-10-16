@@ -6,5 +6,5 @@ def make_gaussian(x, a, mean, std):
     return y
 
 def make_non_linear(x, p1, p2, p3, p4):
-    y = p1 * math.exp(-x / p2) + p3 * math.sin(x / p4)
+    y = p1 * np.exp(-x / p2) + p3 * np.sin(x / p4)
     return y
